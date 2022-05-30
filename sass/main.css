@@ -1,0 +1,250 @@
+@media (max-width: 1150px) {
+  .headsection {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+.headdetials {
+  padding: 7.5rem 6.25rem;
+  width: 600px;
+}
+
+.headdetials__mainheading {
+  color: black;
+  font-size: 3.5rem;
+  margin-bottom: 2.5rem;
+  font-weight: 600;
+}
+
+.headdetials__subheading {
+  color: black;
+  font-size: 1rem;
+  width: 90%;
+  color: #a1a1a1;
+  line-height: 1.5;
+  margin-bottom: 2.52rem;
+}
+
+.headdetials__btn {
+  color: #a1a1a1;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+}
+
+.headdetials__btn:hover {
+  letter-spacing: 1ch;
+}
+
+@media (max-width: 1150px) {
+  .secondsection {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+.secondsection__detials {
+  padding: 50px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.secondsection__mainheading {
+  color: black;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin-bottom: 20px;
+}
+
+.secondsection__subheading {
+  color: #a1a1a1;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+@media (max-width: 1150px) {
+  .secondsection__img1, .secondsection__img {
+    width: 100%;
+  }
+}
+
+*, *::after, *::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Spartan", sans-serif;
+  font-size: .7rem;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+}
+
+ul, li, a {
+  text-decoration: none;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header {
+  position: relative;
+  width: 840px;
+}
+
+@media (max-width: 1150px) {
+  header {
+    width: 1440px;
+  }
+}
+
+header .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  padding: 0 1rem;
+  margin: 3.75rem 0 0 3.75rem;
+}
+
+@media (max-width: 500px) {
+  header .navbar {
+    height: 90px;
+    margin: 0;
+  }
+}
+
+header .navbar__lists:not(:last-child) {
+  margin-right: 2.2rem;
+}
+
+header .navbar__items {
+  margin-top: 4px;
+}
+
+header .navbar ul, header .navbar li, header .navbar a {
+  color: white;
+}
+
+@media (max-width: 500px) {
+  header .navbar ul, header .navbar li, header .navbar a {
+    color: white;
+  }
+}
+
+header .navbar__links {
+  position: relative;
+  padding-bottom: 15px;
+}
+
+header .navbar__links::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  left: 5px;
+  bottom: 0;
+  height: 3px;
+  width: 60%;
+  background-color: white;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+}
+
+header .navbar__links:hover::before {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+}
+
+header .navbar__ham {
+  display: none;
+}
+
+@media (max-width: 500px) {
+  header .navbar__ham {
+    display: inline;
+  }
+}
+
+header .logo {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0 3.2rem 0 0;
+}
+
+header .heroimage {
+  margin-top: -6rem;
+  width: 100%;
+  height: 100%;
+}
+
+header .arrows {
+  width: 233px;
+  height: 80px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transform: translateX(233px);
+          transform: translateX(233px);
+}
+
+@media (max-width: 1300px) {
+  header .arrows {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+    width: 160px;
+    height: 80px;
+  }
+}
+
+header .leftarrow {
+  width: 50%;
+  height: 100%;
+  background-color: black;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+}
+
+header .leftarrow:hover {
+  background-color: #a1a1a1;
+}
+
+header .img {
+  display: inline;
+}
+/*# sourceMappingURL=main.css.map */
